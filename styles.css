@@ -1,0 +1,173 @@
+#main-site-frame {
+    background-color: whtie;
+    font-family: "aktiv-grotesk", "Helvetica Neue", "Helvetica", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+
+#title {
+    color:white;
+    margin: 0.75rem;
+}
+#first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#orginal-site-pic {
+    width: 40rem;
+    height: fit-content;
+    margin: 1rem;
+    box-shadow: 0.35rem 0.35rem 1rem -0.25rem black;
+}
+
+#info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33.33%
+}
+
+#explanation {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+#second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E7E7E7;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#prob-title-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width:100%;
+}
+#problems-title {
+    font-size: 4rem;
+    text-align: left;
+    padding-left:1rem;
+    background-color: #E7E7E7;
+}
+.problems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    height: fit-content;
+
+}
+
+.problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+ol {
+    width: 30rem;
+}
+
+h3 {
+    margin: 0.5rem;
+}
+
+.issue-pic {
+    width: 30rem;
+    height: fit-content;
+    margin: 2rem;
+    box-shadow: 0.35rem 0.35rem 1rem -0.25rem black;
+}
+
+.issue-text {
+    font-size: 1.5rem;
+}
+
+#WAVE-text {
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+h1 {
+    margin: 2px;
+    
+}
+h2{
+    margin: 10px;
+}
+
+
+#redesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#redesign-title {
+    font-size: 4rem;
+    text-align: left;
+    margin: 1rem;
+}
+#style-guide {
+    width: 60%;
+    height: fit-content;
+}
+
+.prototype {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#website {
+    width: 90%;
+    height: 50rem;
+    margin: 1.5rem;
+}
