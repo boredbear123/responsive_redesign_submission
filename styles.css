@@ -29,7 +29,6 @@
 
 #orginal-site-pic {
     width: 40rem;
-    height: fit-content;
     margin: 1rem;
     box-shadow: 0.35rem 0.35rem 1rem -0.25rem black;
 }
@@ -101,7 +100,7 @@ h3 {
 }
 
 .issue-pic {
-    width: 35rem;
+    width: 30rem;
     height: fit-content;
     margin: 2rem;
     box-shadow: 0.35rem 0.35rem 1rem -0.25rem black;
